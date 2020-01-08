@@ -1,0 +1,6 @@
+Flow_py_afficheur is a Python program to managed a Bronkhorst's instrument on a computer or laptop with Windows.
+The main module is "Flow_py_afficheur_MFC.py"
+The module "recherche_creation_ports.py" generats the bound between a computer and instrument by RS232.
+The module "trames_fonctions.py" contains the codes for requests : like  measure, setpoint, serial number, instrument type ...
+All others modules called "convertisseur..." can transform the communication in characters, hexaDecimal, float, integer, string ...
+for a Bronkhorst's instrument like a thermal mass flow controler.
